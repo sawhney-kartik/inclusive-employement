@@ -15,7 +15,13 @@
         </fieldset>
         <div class="inner-form">
           <div class="input-field first-wrap">
-            <input id="search" type="text" placeholder="Which company are you looking for?" />
+            <input list="brow" style="width: 1000px; margin-left: 20px">
+              <datalist id="brow" STYLE="font-family : monospace; font-size : 12pt">
+                <option value="Microsoft">
+                <option value="Cisco">
+                <option value="Intel">
+              </datalist>
+<!--            <input id="search" type="text" placeholder="Which company are you looking for?" />-->
           </div>
           <div class="input-field third-wrap">
             <button class="btn-search" type="button">Search</button>
@@ -23,5 +29,5 @@
         </div>
       </form>
     </div>
-  </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+  </body>
 </html>

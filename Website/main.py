@@ -5,8 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def welcome():
-    new = 123
-    return render_template("welcome.html", ab=new)
+    return render_template("welcome.html")
 
 # @app.route("/languages")
 # def languages():
