@@ -5,29 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="iNova">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
-    <link href="../static/main.css" rel="stylesheet" />
+    <link href="../static/FirstPage/main.css" rel="stylesheet" />
+    <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
+
   </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<script type = "text/javascript" language = "javascript">
+ jQuery(document).ready(function() {
+    jQuery("#buttonId").click(function() {
+        var company_value = $('#search').val();
+            window.location = "/"+company_value;
+
+    });
+ });
+</script>
   <body>
     <div class="s01">
       <form>
         <fieldset>
           <legend>Discover the Amazing City</legend>
         </fieldset>
+
+
         <div class="inner-form">
           <div class="input-field first-wrap">
-            <input list="brow" style="width: 1000px; margin-left: 20px">
-              <datalist id="brow" STYLE="font-family : monospace; font-size : 12pt">
-                <option value="Microsoft">
-                <option value="Cisco">
-                <option value="Intel">
-              </datalist>
-<!--            <input id="search" type="text" placeholder="Which company are you looking for?" />-->
-          </div>
-          <div class="input-field third-wrap">
-            <button class="btn-search" type="button">Search</button>
-          </div>
+
+          <form method="get" action="" role="search">
+            <select id="search">
+              <option value="">Select Company</option>
+              <option value="microsoft">Microsoft</option>
+              <option value="cisco">Cisco</option>
+              <option value="intel">Intel</option>
+            </select>
+          <button type="button" id="buttonId">Submit</button>
+          </form>
+
+<!--          <form id="selectbox">-->
+<!--          <label for="search">Which company are you looking for?</label>-->
+<!--          <select name="search" id="search">-->
+<!--            <option value="/microsoft">Microsoft</option>-->
+<!--            <option value="/cisco">Cisco</option>-->
+<!--            <option value="/intel">Intel</option>-->
+<!--          </select>-->
+<!--          <br><br>-->
+<!--          <input type="submit" value="Submit">-->
+<!--        </form>-->
+
+
+<!--            <input id="submit" type="button" value="Click" list="brow" style="width: 1000px; margin-left: 20px" >-->
+<!--              <datalist id="brow" STYLE="font-family : monospace; font-size : 12pt" id="selectbox" name="" onchange="javascript:location.href = this.value;">-->
+<!--                <option value="Microsoft">-->
+<!--                <option value="Cisco">-->
+<!--                <option value="Intel">-->
+<!--              </datalist>-->
+<!--            <input id="search" type="text" placeholder="" />-->
+
+<!--              <label for="search">Which company are you looking for?</label>-->
+<!--              <select name="Companies" id="search">-->
+<!--                <option value="/microsoft">Microsoft</option>-->
+<!--                <option value="/cisco">Cisco</option>-->
+<!--                <option value="/intel">Intel</option>-->
+<!--              </select>-->
+<!--              <br><br>-->
+<!--              <input type="submit" value="Submit">-->
+
+<!--              </datalist>-->
+<!--          </div>-->
+
+<!--          <div class="input-field third-wrap">-->
+<!--            <button class="btn-search" type="button">Search</button>-->
+<!--          </div>-->
+
         </div>
-      </form>
+
     </div>
   </body>
 </html>
