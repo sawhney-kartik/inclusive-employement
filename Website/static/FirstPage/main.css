@@ -89,7 +89,7 @@ pre {
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
 a {
-  background-color: blue;
+  background-color: #a8a9b4;
   /* 1 */
   -webkit-text-decoration-skip: objects;
   /* 2 */
@@ -148,7 +148,7 @@ dfn {
  * Add the correct background and color in IE 9-.
  */
 mark {
-  background-color: #ff0;
+  background-color: #a8a9b4;
   color: #000;
 }
 
@@ -463,7 +463,6 @@ legend {
   -ms-flex-align: center;
       align-items: center;
   font-family: 'Poppins', sans-serif;
-  background: url("../images/Search_001.png");
   background-size: cover;
   background-position: center center;
   padding: 15px;
