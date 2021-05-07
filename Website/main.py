@@ -96,6 +96,42 @@ def intel_questions():
 # Cisco Tabs
 
 
-@app.route("/cisco", methods=['POST', 'GET'])
+@app.route("/cisco/", methods=['POST', 'GET'])
 def cisco():
-    return render_template("cisco.html")
+    return render_template("cisco_tabs/mission.html")
+
+
+@app.route("/cisco/mission/", methods=['POST', 'GET'])
+def cisco_mission():
+    return render_template("cisco_tabs/mission.html")
+
+
+@app.route("/cisco/erg/", methods=['POST', 'GET'])
+def cisco_erg():
+    return render_template("cisco_tabs/erg.html")
+
+
+@app.route("/cisco/twitter/", methods=['POST', 'GET'])
+def cisco_twitter():
+    return render_template("cisco_tabs/twitter.html")
+
+
+@app.route("/cisco/employee/", methods=['POST', 'GET'])
+def cisco_employee():
+    return render_template("cisco_tabs/employee.html")
+
+
+@app.route("/cisco/ratings/", methods=['POST', 'GET'])
+def cisco_ratings():
+    return render_template("cisco_tabs/ratings.html")
+
+
+@app.route("/cisco/dei/", methods=['POST', 'GET'])
+def cisco_dei():
+    return render_template("cisco_tabs/dei.html")
+
+
+@app.route("/cisco/questions/", methods=['POST', 'GET'])
+def cisco_questions():
+    return render_template("cisco_tabs/questions.html")
+
