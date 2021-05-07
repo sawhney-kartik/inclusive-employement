@@ -19,3 +19,6 @@ The output would look like -
  
  Pick the URL from the last point that will redirect you to the web page.
 
+**TO DO:**
+
+Redirection (/templates/microsoft_tabs/dei.html/) in the tabs is incorrect
