@@ -36,9 +36,9 @@ def microsoft_ratings():
     return render_template("microsoft_tabs/ratings.html")
 
 
-@app.route("/microsoft/dei/", methods=['POST', 'GET'])
-def microsoft_dei():
-    return render_template("microsoft_tabs/dei.html")
+@app.route("/microsoft/hiring/", methods=['POST', 'GET'])
+def microsoft_hiring():
+    return render_template("microsoft_tabs/hiring.html")
 
 
 @app.route("/microsoft/questions/", methods=['POST', 'GET'])
@@ -73,9 +73,9 @@ def intel_ratings():
     return render_template("intel_tabs/ratings.html")
 
 
-@app.route("/intel/dei/", methods=['POST', 'GET'])
-def intel_dei():
-    return render_template("intel_tabs/dei.html")
+@app.route("/intel/hiring/", methods=['POST', 'GET'])
+def intel_hiring():
+    return render_template("intel_tabs/hiring.html")
 
 
 @app.route("/intel/questions/", methods=['POST', 'GET'])
@@ -111,9 +111,9 @@ def cisco_ratings():
     return render_template("cisco_tabs/ratings.html")
 
 
-@app.route("/cisco/dei/", methods=['POST', 'GET'])
-def cisco_dei():
-    return render_template("cisco_tabs/dei.html")
+@app.route("/cisco/hiring/", methods=['POST', 'GET'])
+def cisco_hiring():
+    return render_template("cisco_tabs/hiring.html")
 
 
 @app.route("/cisco/questions/", methods=['POST', 'GET'])
