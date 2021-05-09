@@ -26,11 +26,6 @@ def microsoft_erg():
     return render_template("microsoft_tabs/erg.html")
 
 
-@app.route("/microsoft/twitter/", methods=['POST', 'GET'])
-def microsoft_twitter():
-    return render_template("microsoft_tabs/twitter.html")
-
-
 @app.route("/microsoft/employee/", methods=['POST', 'GET'])
 def microsoft_employee():
     return render_template("microsoft_tabs/employee.html")
@@ -66,11 +61,6 @@ def intel_mission():
 @app.route("/intel/erg/", methods=['POST', 'GET'])
 def intel_erg():
     return render_template("intel_tabs/erg.html")
-
-
-@app.route("/intel/twitter/", methods=['POST', 'GET'])
-def intel_twitter():
-    return render_template("intel_tabs/twitter.html")
 
 
 @app.route("/intel/employee/", methods=['POST', 'GET'])
@@ -109,11 +99,6 @@ def cisco_mission():
 @app.route("/cisco/erg/", methods=['POST', 'GET'])
 def cisco_erg():
     return render_template("cisco_tabs/erg.html")
-
-
-@app.route("/cisco/twitter/", methods=['POST', 'GET'])
-def cisco_twitter():
-    return render_template("cisco_tabs/twitter.html")
 
 
 @app.route("/cisco/employee/", methods=['POST', 'GET'])
