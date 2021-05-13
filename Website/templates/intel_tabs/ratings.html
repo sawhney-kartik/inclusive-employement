@@ -52,6 +52,27 @@
             .clearfix {*zoom: 1;}
 
   </style>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .card{
+    width: 100%;
+    height: 350px;
+    margin: 30px auto;
+  }
+  .scrollable{
+    overflow-y: auto;
+    max-height: 330px;
+  }
+  </style>
 
   <link rel="stylesheet" href="../../static/SecondPage/assets/css/circle.css">
 
@@ -85,35 +106,56 @@
   </header><!-- End Header -->
 
   <main id="main">
-        <section id="ratings" class="ratings">
+    <section id="ratings" class="ratings">
       <div class="container">
         <div class="section-title">
           <h2>Ratings</h2>
-            <h3> Glassdoor Diversity and Inclusion Score </h3> <br>
-            <div class="clearfix">
-              <div class="c100 p88 big">
-                <span>4.4/5</span>
-                <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="scrollable">
+                      <p class="card-text">
+                        <h4> Glassdoor Rating </h4> <br>
+                          <div class="clearfix">
+                            <div class="c100 p88">
+                              <span>4.4/5</span>
+                              <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                              </div>
+                            </div> Company ratings on Glassdoor are determined by recent employee feedback. Glassdoor calculates company ratings using a proprietary ratings algorithm, with an emphasis on recency of reviews. Generally, the more recent the review, the heavier its weight towards the overall rating on Glassdoor. This approach gives job seekers and employers what they've asked for - the freshest perspective on what it’s really like to work inside any company, according to employees.
+                          </div> <br>
+                          </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              </div> <br>
-            <h3> Disability:IN DEI Score </h3> <br>
-            <div class="clearfix">
-              <div class="c100 p100 big">
-                <span>100/100</span>
-                <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
+              <div class="column">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="scrollable">
+                      <p class="card-text">
+                        <h4> Disability:IN Rating </h4> <br>
+                          <div class="clearfix">
+                            <div class="c100 p100">
+                              <span>100/100</span>
+                              <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                              </div>
+                            </div> The Disability Equality Index (DEI) is a comprehensive benchmarking tool that helps companies build a roadmap of measurable, tangible actions that they can take to achieve disability inclusion and equality. Each company receives a score, on a scale of zero (0) to 100, with those earning 80 and above recognized as “Best Places to Work for Disability Inclusion.”
+                            Fortune 1000 companies realize environmental, social and governance factors impact their management, culture, brand and financial well-being. While many companies have identified methods to advance their disability inclusion, companies had recognized current benchmarking tools were inadequate in evaluating disability inclusion as part of their company’s diversity and inclusion, or broader, sustainability efforts.
+                            A joint initiative of Disability:IN and the American Association of People with Disabilities (AAPD), the DEI is an objective, reflective, forward-thinking and CONFIDENTAL disability inclusion rating tool to assist business.
+                          </div> <br>
+                      </p>
+                    </div>
+                  </div>
                 </div>
-          </div>
+              </div>
+            </div>
         </div>
       </div>
-      </div>
-    </section>
-
-    <section id="dei" class="dei">
       <div class="container">
 
         <div class="section-title">
