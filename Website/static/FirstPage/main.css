@@ -6,6 +6,7 @@ html {
 
 body {
   margin: 0;
+  color: #040B14;
 }
 
 article,
@@ -270,6 +271,7 @@ legend {
   background-size: cover;
   background-position: center center;
   padding: 15px;
+  /*color: white;*/
 }
 
 .s01 form {
