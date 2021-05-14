@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-from django.http import HttpResponseRedirect
 
 app = Flask(__name__)
 
