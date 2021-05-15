@@ -21,45 +21,102 @@
 </script>
   <style>
     body {
-  background-color: #040B14;
+  /*background-color: #040B14;*/
 }
-    h1{
-      color: white;
-    }
     .form-field{
       color: white;
     }
 
-    .box1 {
-  width: 1500px;
+.box1 {
+  /*width: 1500px;
   height: 100px;
   padding: 50px;
-  border: 1px solid red;
-}
-    .box2 {
-  width: 500px;
-  height: 100px;
-  padding: 50px;
-  border: 1px solid red;
+  border: 1px solid red;*/
+  height: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  width: 400px;
 }
 
+.box2{
+    height: 50px;
+    background-color: black ;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    width: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 17px;
+    }
+.submit_button {
+  
+  /*width: 500px;
+  height: 100px;
+  padding: 50px;*/
+  border: none;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  width: 150px;
+  background: #173b6c;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+}
+
+.s01{
+  /*grid-row:1/4;*/
+  height: 60%;
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url(Search_001.png));*/
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+h1{
+  margin-bottom: 70px;
+  font-size: 45px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.credits{
+  grid-row: 25%;
+  height:40%;
+  background-color: #040B14;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
   </style>
   <body>
   <center>
-  <h1> Team iNova Welcomes you! </h1>
     <div class="s01">
           <form method="get" action="" role="search" class="box1">
+            <h1>Project Inclusion</h1>
             <select id="search" class="box2">
               <option value="Select Company">Select Company</option>
               <option value="microsoft">Microsoft</option>
               <option value="cisco">Cisco</option>
               <option value="intel">Intel</option>
             </select>
-          <button type="button" id="buttonId" class="box2">Submit</button>
+          <button type="button" id="buttonId" class="submit_button">Submit</button>
           </form>
     </div>
-
-    </div>
       </center>
+  <div class="credits">
+        <h1>By team inova</h1> 
+  </div>
   </body>
 </html>
