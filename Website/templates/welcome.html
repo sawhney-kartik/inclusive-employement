@@ -1,10 +1,11 @@
 <html>
   <head>
+    <title>Team iNova</title>
+    <link rel="shortcut icon" type="image/jpg" href="../static/SecondPage/assets/img/handshake.png"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="iNova">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
-<!--    <link href="../static/FirstPage/main.css" rel="stylesheet" />-->
     <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
 
   </head>
@@ -32,80 +33,106 @@
   height: 100px;
   padding: 50px;
   border: 1px solid red;*/
-  height: 50px;
+  height: 75px;
   padding: 10px;
   border: none;
   border-radius: 25px;
   outline: none;
-  width: 400px;
+  width: 1300px;
 }
 
 .box2{
-    height: 50px;
+    height: 75px;
     background-color: black ;
     padding: 10px;
     border: none;
     border-radius: 25px;
     outline: none;
-    width: 200px;
-    font-family: sans-serif;
-    text-align: center;
+    width: 600px;
+    /*font-family: sans-serif;*/
+    /*text-align: center;*/
     color: white;
     font-family: "Raleway", sans-serif;
     font-size: 17px;
     }
+
 .submit_button {
-  
   /*width: 500px;
   height: 100px;
   padding: 50px;*/
   border: none;
-  height: 50px;
+  height: 75px;
   padding: 10px;
-  border: none;
+  /*border: none;*/
   border-radius: 25px;
   outline: none;
   width: 150px;
   background: #173b6c;
   color: white;
   font-family: "Raleway", sans-serif;
-  font-size: 17px;
+  font-size: 23px;
 }
 
 .s01{
   /*grid-row:1/4;*/
-  height: 60%;
+  height: 80%;
   /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url(Search_001.png));*/
   background-color: white;
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /*align-items: center;*/
   font-family: "Raleway", sans-serif;
 }
 
 h1{
   margin-bottom: 70px;
-  font-size: 45px;
-  letter-spacing: 2px;
+  font-size: 110px;
+  font-weight: bold;
   text-align: center;
   font-family: "Raleway", sans-serif;
+  color: #173b6c;
 }
+
 .credits{
   grid-row: 25%;
-  height:40%;
+  height: 20%;
   background-color: #040B14;
   color: white;
   font-family: "Raleway", sans-serif;
 }
+
+.img1{
+  max-width: 80%;
+  max-height: 80%;
+  padding-top: 15px;
+  padding-left: 5%;
+}
+
+.img2{
+  max-width: 60%;
+  max-height: 60%;
+  padding-bottom: 15px;
+  padding-left: 37%;
+}
+
+.love{
+  color: black;
+  align: center;
+}
+
+/*.footer {*/
+/*  top: -1000px;*/
+/*}*/
+
   </style>
   <body>
   <center>
     <div class="s01">
           <form method="get" action="" role="search" class="box1">
-            <h1>Project Inclusion</h1>
-            <select id="search" class="box2">
+            <h1>Project Inclusion</h1> <br> <br> <br> <br>
+            <select id="search" class="box2" style="font-size: 23px; font-family: 'Raleway', sans-serif">
               <option value="Select Company">Select Company</option>
               <option value="microsoft">Microsoft</option>
               <option value="cisco">Cisco</option>
@@ -115,8 +142,10 @@ h1{
           </form>
     </div>
       </center>
-  <div class="credits">
-        <h1>By team inova</h1> 
+  <div class="credits" >
+      <img class="img1" src="../static/SecondPage/assets/img/microsoft_long-nobg.png" alt="">
+      <img class="img2" src="../static/SecondPage/assets/img/uw_school.png" alt="">
+<!--      <div class="footer"> In chicago </div>-->
   </div>
   </body>
 </html>
