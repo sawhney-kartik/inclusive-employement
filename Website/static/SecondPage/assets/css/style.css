@@ -304,6 +304,26 @@ section {
   left: 0;
 }
 
+.section-title h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+
+.section-title h1::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
 .section-title p {
   margin-bottom: 0;
 }
@@ -653,6 +673,12 @@ section {
   margin-bottom: 20px;
 }
 
+.portfolio-details .portfolio-description h1 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
@@ -997,6 +1023,11 @@ section {
 }
 
 .breadcrumbs h2 {
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.breadcrumbs h1 {
   font-size: 26px;
   font-weight: 300;
 }
