@@ -1,3 +1,33 @@
+### Executive Summary
+A significant challenge for people with disabilities is the lack of awareness around accessible 
+employers, programs, and opportunities within the community. Additionally, the information they 
+seek on inclusive hiring practices, benefits, accommodations, and company culture is scattered 
+across multiple sources. Our application uses data mining techniques on company blogs, Twitter, 
+Glassdoor, YouTube, etc., to aggregate such information, and, in doing so, empowers the underserved
+disabled community to make more informed job-search decisions. The application also aims to help
+employers identify gaps in the information they provide, thus bringing them closer to diverse 
+candidates' needs.
+--------
+### The Opportunity
+* Inclusive employers are open to hiring candidates who identify as disabled, & offer dedicated accomodations and benefits.
+* While searching for inclusive employers, these candidates look up information online.
+* The information they seek on accommodations, benefits and overall company culture is hard to find and scattered across multiple sources (such as official company web pages, blog posts, Twitter, company review websites, YouTube videos, etc.).
+* Our web application aims to decrease friction for disabled job seekers by centralizing information on inclusive employers. 
+* The goal of our product is to empower disabled candidates to make better decisions during their job search.
+--------
+### Scope
+* As a starting point for the project, we focused on companies specifically in the technology industry. 
+* Amongst these, we did a quick check of the publicly available data for each, on the basis of which we selected three companies (Microsoft, Cisco, and Intel) for our MVP (Minimum Viable Product).
+* To extract information about inclusive hiring practices, we limited ourselves to official company websites and chose to leave out third-party news websites or blogs.
+* We added sources like Twitter, YouTube, and official company DEI reports to increase the diversity of our data sources.
+--------
+### Project Information 
+[Project Poster](https://projectinclusion.netlify.app/)
+
+[Project Walk-through and Demo](https://www.youtube.com/watch?v=R6R0PL0jpKg&t=2s)
+
+--------
+### File Structure on the repository
 
     ├── Articles                                  
     │   └── employee-community-articles.ipynb    <- Juptyer notebook that extracts employee community articles.
