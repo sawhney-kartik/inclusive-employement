@@ -16,9 +16,9 @@ A significant challenge for people with disabilities is the lack of awareness ar
 * We added sources like Twitter, YouTube, and official company DEI reports to increase the diversity of our data sources.
 --------
 ### Project Information 
-[Project Poster](https://projectinclusion.netlify.app/)
+* [Project Poster](https://projectinclusion.netlify.app/)
 
-[Project Walk-through and Demo](https://www.youtube.com/watch?v=R6R0PL0jpKg&t=2s)
+* [Project Walk-through and Demo](https://www.youtube.com/watch?v=R6R0PL0jpKg&t=2s)
 
 --------
 ### File Structure on the repository
