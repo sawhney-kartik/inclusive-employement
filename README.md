@@ -1,12 +1,6 @@
 ### Executive Summary
-A significant challenge for people with disabilities is the lack of awareness around accessible 
-employers, programs, and opportunities within the community. Additionally, the information they 
-seek on inclusive hiring practices, benefits, accommodations, and company culture is scattered 
-across multiple sources. Our application uses data mining techniques on company blogs, Twitter, 
-Glassdoor, YouTube, etc., to aggregate such information, and, in doing so, empowers the underserved
-disabled community to make more informed job-search decisions. The application also aims to help
-employers identify gaps in the information they provide, thus bringing them closer to diverse 
-candidates' needs.
+A significant challenge for people with disabilities is the lack of awareness around accessible employers, programs, and opportunities within the community. Additionally, the information they seek on inclusive hiring practices, benefits, accommodations, and company culture is scattered across multiple sources. Our application uses data mining techniques on company blogs, Twitter, Glassdoor, YouTube, etc., to aggregate such information, and, in doing so, empowers the underserved disabled community to make more informed job-search decisions. The application also aims to help employers identify gaps in the information they provide, thus bringing them closer to diverse candidates' needs.
+
 --------
 ### The Opportunity
 * Inclusive employers are open to hiring candidates who identify as disabled, & offer dedicated accomodations and benefits.
