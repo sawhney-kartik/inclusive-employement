@@ -33,4 +33,4 @@ for company in list_of_companies:
 
 scraped_company_df = pd.DataFrame(scraped_company_data, columns=['Company Name', 'Query', 'URL', 'Name of Web Page',
                                                                  'Web Page Snippet'])
-scraped_company_df.to_csv('output_second_python_search.csv')
+scraped_company_df.to_csv('search-output-python-second.csv')
