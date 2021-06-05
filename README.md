@@ -15,6 +15,12 @@ A significant challenge for people with disabilities is the lack of awareness ar
 * To extract information about inclusive hiring practices, we limited ourselves to official company websites and chose to leave out third-party news websites or blogs.
 * We added sources like Twitter, YouTube, and official company DEI reports to increase the diversity of our data sources.
 --------
+
+### Tech Workflow
+To narrow down the source webpage pool, we devised keyword combinations for which search engines returned the most relevant results, and then passed these to the Bing Web Search API. The URLs thus returned were used to retrieve textual content from corresponding web pages. Additionally, we harvested tweets from official company handles and company leaders through the Twitter Research API. All of the above data was then passed through an NLP powered relevance filter. 
+
+--------
+
 ### Project Information 
 * [Project Poster](https://projectinclusion.netlify.app/)
 
@@ -99,5 +105,15 @@ A significant challenge for people with disabilities is the lack of awareness ar
     │   └── requirements.txt                     <- All the libraries required for deploying this app.
     │    
     ├── README.md                                <- The top-level README for developers using this project (aka this file).
+
+--------
+
+### Our Team
+
+* [**Aayush Shah**](https://www.linkedin.com/in/aayushah19/) - Machine Learning Engineer, Stats Perform
+  
+* [**Shikhar Shah**](https://www.linkedin.com/in/sbshah96/) - Business Intelligence Analyst, Amazon
+  
+* [**Vaibhav Rao**](https://www.linkedin.com/in/vaibhavvasanthrao/) - Technical Product Manager, eBay
 
 --------
