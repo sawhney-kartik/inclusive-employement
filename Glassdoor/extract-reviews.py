@@ -59,6 +59,6 @@ for page in range(1, max_page+1):
 
 print(len(heading), len(status), len(date), len(pros), len(cons))
 df = pd.DataFrame(list(zip(heading, status, date, pros, cons)), columns =['Headline', 'Status', 'Date', 'Pros', 'Cons'])
-df.to_excel('IntelReviews.xlsx', header=True, index=False)
+df.to_excel('intel-reviews-output.xlsx', header=True, index=False)
 
 
