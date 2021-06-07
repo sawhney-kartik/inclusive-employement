@@ -58,6 +58,9 @@ To narrow down the source webpage pool, we devised keyword combinations for whic
     │   ├── relevant-glassdoor-results.xlsx      <- CSV output of relevant glassdoor results.
     │   └── extract-reviews.py                   <- Python file used to extract reviews.
     │
+    ├── Project Report                                
+    │   └── project-report.pdf                     <- Project documentation with technical architecture diagram.
+    │
     ├── Ratings                                  
     │   └── valuable500-disabilityin.ipynb       <- Jupyter notebook for extracting valuable500 and disabilityIn ratings.
     │
